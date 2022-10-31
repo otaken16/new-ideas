@@ -1,0 +1,73 @@
+body {
+  background: rgb(106, 90, 205);
+  font-size: 30px;
+}
+body main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+body main .test-text {
+  width: 50%;
+  margin: 0 auto;
+}
+body main .test-text h1, body main .test-text p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+body main .test-text h1 {
+  color: white;
+}
+body main .test-text p {
+  color: aqua;
+}
+body main .test-text .text_animation span {
+  display: inline-block;
+}
+body main .test-text .text-up {
+  -webkit-animation: showText 2s infinite;
+          animation: showText 2s infinite;
+}
+
+@-webkit-keyframes showText {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  35% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes showText {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  35% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=index.css.map */

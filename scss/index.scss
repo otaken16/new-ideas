@@ -1,0 +1,55 @@
+body{
+    background: rgba(106 ,90 ,205);
+    font-size: 30px;
+    main{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        .test-text{
+            width: 50%;
+            margin: 0 auto;
+            h1, p{
+                text-align:center;
+                display: flex;
+                justify-content: center;
+                
+            }
+            h1{
+                color: white;
+                // amation: fadeInAnime backwards 3s infinite ease;
+            }
+            p{
+                color: aqua;
+            }
+            
+            .text_animation span{
+                display: inline-block;
+            }
+            .text-up{
+                animation: showText  2s infinite ;
+            }
+        }
+    }
+}
+
+@keyframes showText{
+        0% {
+        transform: translateY(0);
+        }
+        20% {
+        transform: translateY(0);
+        }
+        35% {
+        transform: translateY(-30px);
+        }
+    
+        50% {
+        transform: translateY(0);
+        }
+        80% {
+        transform: translateY(0);
+        }
+        100% {
+        transform: translateY(0);
+        }
+    }
